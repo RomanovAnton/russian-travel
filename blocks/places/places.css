@@ -1,0 +1,27 @@
+.places {
+  border: springgreen solid 1px;
+  margin: 0 148px 0;
+  display: grid;
+  grid-template: repeat(5, 1fr)/1fr ;
+  gap: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    margin: 0 36px 0 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    margin: 0 24px 0;
+    gap: 73px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places {
+    margin: 0;
+    gap: 50px;
+  }
+}

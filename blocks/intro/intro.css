@@ -1,0 +1,22 @@
+.intro {
+  padding: 92px 0 92px;
+  border: green solid 1px;
+  max-width: 690px;
+  min-height: 429px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 148px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin-left: 48px;
+  }
+} 
+
+@media screen and (max-width: 768px) {
+  .intro {
+    margin: auto;
+    justify-content: center;
+  }
+} 
