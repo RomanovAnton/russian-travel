@@ -27,16 +27,15 @@
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 /* places */
 @import url(../blocks/places/places.css);
-@import url(../blocks/places/__place/places__place.css);
-@import url(../blocks/places/__place/__image/places__image.css);
-@import url(../blocks/places/__place/__paragraph/places__paragraph.css);
-@import url(../blocks/places/__place/__text/places__text.css);
-@import url(../blocks/places/__place/__title/places__title.css);
-@import url(../blocks/places/__place/__website/places__website.css);
-@import url(../blocks/places/__place/__website/__link/places__link.css);
-@import url(../blocks/places/__place/__website/__url-heading/places__url-heading.css);
-
-
+/* place */
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__text/place__text.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/website/website.css);
+@import url(../blocks/website/__link/website__link.css);
+@import url(../blocks/website/__url-heading/website__url-heading.css);
 /* cover */
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);
@@ -47,10 +46,9 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
-
 /* fonts */
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
   src: url("../vendor/fonts/Inter-Regular.woff2") format("woff2"),
@@ -58,7 +56,7 @@
 }
 
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 700;
   src: url("../vendor/fonts/Inter-Bold.woff2") format("woff2"),
@@ -66,7 +64,7 @@
 }
 
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 900;
   src: url("../vendor/fonts/Inter-Black.woff2") format("woff2"),

@@ -1,16 +1,14 @@
 .cover__link {
-  border: blue solid 2px ;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 740px;
+  min-height: 740px; 
   background-image: url(../../../images/cover/cover-trains.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: 100% 100%;
   color:#FFFFFF;
   text-decoration: none;
-  position:relative; 
+  position:relative;  
 }
 
 .cover__link::before {
@@ -42,6 +40,5 @@
 @media screen and (max-width: 425px) {
   .cover__link {
     min-height: 200px;
-    background-size:100vw;
   }
 }

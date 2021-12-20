@@ -18,7 +18,6 @@
     padding: 88px 0 88px;
     max-width: 720px;
     margin: 0 24px 0 24px;
-    justify-content: center;
   }
 }  
 
@@ -26,5 +25,12 @@
   .intro {
     padding: 64px 0 64px;
     margin: 0 16px 0 16px;
+  }
+} 
+
+@media screen and (max-width: 300px) {
+  .intro {
+    padding: 64px 0 64px;
+    margin: 0;
   }
 } 
