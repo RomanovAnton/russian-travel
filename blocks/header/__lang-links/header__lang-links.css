@@ -3,10 +3,10 @@
   flex-direction: row;
   margin: 0;
   padding: 0;
-  align-items: end; 
+  align-items: end;
   list-style: none;
 }
 
 .header__lang-links li:nth-child(2) {
-  margin-left: 18px ;
+  margin-left: 18px;
 }
